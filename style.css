@@ -1,27 +1,54 @@
-h1 { text-shadow: 1px 1px white;
+h1 {
+    text-shadow: 1px 1px white;
 }
-img { border-radius: 50%;
+
+img {
+    border-radius: 50%;
     width: 300px;
-    
-    }
-#intro { 
- padding: 20px;
-font size: 18;    
-font-family: fantasy;
-text-align: center;    
+
 }
 
-.fullpage { background: linear-gradient( cyan, yellow);
-    }
-#para { font-family: fantasy;
+#intro {
+    padding: 20px;
+    font size: 18;
+    font-family: fantasy;
     text-align: center;
-    padding: 20px; 
-    
-    
+    padding-top: 100px;
 }
 
-#para p { max-width: 600px;
+.fullpage {
+    background: linear-gradient(cyan, yellow);
+}
+
+#para {
+    font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#para p {
+    max-width: 600px;
     margin: auto;
+
+}
+
+.menu {
+    position: absolute;
+    list-style: none;
+    right: 30px;
+    display: flex;
+}
+
+.items {
+padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    text-shadow: 4px 4px white;
+}
+.items:hover { 
+    cursor: pointer;
+    background-color: orange;
+    
     
 }
-    
