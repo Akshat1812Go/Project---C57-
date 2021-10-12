@@ -41,14 +41,34 @@ img {
 }
 
 .items {
-padding: 10px;
+    padding: 10px;
     margin: 20px;
     font-size: 20px;
     text-shadow: 4px 4px white;
 }
-.items:hover { 
+
+.items:hover {
     cursor: pointer;
     background-color: orange;
-    
+
+
+}
+
+#me {
+    text-align: center;
+    font-family: fantasy;
+    padding: 30px;
+   background: linear-gradient(cyan, yellow);
     
 }
+
+.largetext { font-size: 35px;
+    
+}
+
+.book{ font-size: 20px;
+    
+}
+
+
+
