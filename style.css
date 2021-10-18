@@ -54,21 +54,41 @@ img {
 
 }
 
-#me {
+#me {padding: 10px;
     text-align: center;
     font-family: fantasy;
     padding: 30px;
-   background: linear-gradient(cyan, yellow);
+    background: linear-gradient(cyan, yellow);
+
+}
+
+.largetext {
+    font-size: 30px;
+
+}
+
+.book {
+    font-size: 20px;
+}
+
+
+
+
+#myinspiration { padding: 20px;
+    font-family: fantasy;
+    text-align: center;
+    font-size: 20px;
+ background: linear-gradient(cyan, yellow);
     
 }
 
-.largetext { font-size: 35px;
-    
+#wholemenu { font-family: fantasy;
+    text-decoration-color: gray;
 }
 
-.book{ font-size: 20px;
+img:hover { 
+    transform: scale(0.9);`
+    
+    
     
 }
-
-
-
