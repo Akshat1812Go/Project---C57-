@@ -84,11 +84,21 @@ img {
 
 #wholemenu { font-family: fantasy;
     text-decoration-color: gray;
+    float: left;
+    display: inline;
 }
 
 img:hover { 
     transform: scale(0.9);`
     
+
+}
+
+#contactme { font-family: fantasy;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+       background: linear-gradient(cyan, yellow);
     
-    
+
 }
